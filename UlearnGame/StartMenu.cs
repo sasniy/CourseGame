@@ -51,16 +51,6 @@ namespace UlearnGame
                 Font = standartFont,
                 Location = new Point(ClientSize.Width/2+150,200)
             };
-            var howToPlayLabel = new Label
-            {
-                Text = "HOW TO PLAY",
-                BackColor = Color.Transparent,
-                ForeColor = Color.BurlyWood,
-                TextAlign = ContentAlignment.MiddleCenter,
-                Size = standartSize,
-                Font = standartFont,
-                Location = new Point(ClientSize.Width / 2 + 150, startGameLabel.Bottom)
-            };
             var closeGameLabel = new Label
             {
                 Text = "CLOSE GAME",
@@ -69,7 +59,7 @@ namespace UlearnGame
                 TextAlign = ContentAlignment.MiddleCenter,
                 Size = standartSize,
                 Font = standartFont,
-                Location = new Point(ClientSize.Width / 2 + 150, howToPlayLabel.Bottom)
+                Location = new Point(ClientSize.Width / 2 + 150, startGameLabel.Bottom)
             };
             var vdvImage = new PictureBox
             {
@@ -87,23 +77,16 @@ namespace UlearnGame
             
             startGameLabel.Click += (sender, args) =>
               {
-                  var form = new GameForm();
-                  form.Show();
+                  var form1 = new GameForm(this);
+                  form1.Show();
                   this.Hide();
               };
-            howToPlayLabel.Click += (sender, args) =>
-            {
-                howToPlayLabel.BringToFront();
-                Controls.Add(HowToPlayImage);
-                
-            };
             closeGameLabel.Click += (sender, args) =>
             {
                 this.Close();
             };
-            Controls.Add(GameName);
             Controls.Add(startGameLabel);
-            Controls.Add(howToPlayLabel);
+            Controls.Add(GameName);
             Controls.Add(closeGameLabel);
             Controls.Add(vdvImage);
             Controls.Add(gachiImage);

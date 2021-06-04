@@ -83,12 +83,7 @@
     <Compile Include="GameForm.Designer.cs">
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GameOverForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GameOverForm.Designer.cs">
-      <DependentUpon>GameOverForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Sound.cs" />
     <Compile Include="StartMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,9 +105,6 @@
     </Compile>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GameOverForm.resx">
-      <DependentUpon>GameOverForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -215,6 +207,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HowToPlayBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintheme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0961f580f9e00da.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e377e9b8d135e68.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spank.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ognennyiy-shar-vzryiv-zvukovoy-effekt-42965.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fa4811c6c7e5a78.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poluchenie-bonusa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
