@@ -1,0 +1,16 @@
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\bin\Debug\UlearnGame.exe.config
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\bin\Debug\UlearnGame.exe
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\bin\Debug\UlearnGame.pdb
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.csprojAssemblyReference.cache
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.Properties.Resources.resources
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.Resources.resources
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.csproj.GenerateResource.cache
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.csproj.CoreCompileInputs.cache
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.exe
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.pdb
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\bin\Debug\UlearnGame.exe.manifest
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\bin\Debug\UlearnGame.application
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.exe.manifest
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.application
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.GameOverForm.resources
+C:\Users\79873\source\repos\UlearnGame\UlearnGame\obj\Debug\UlearnGame.GameForm.resources
