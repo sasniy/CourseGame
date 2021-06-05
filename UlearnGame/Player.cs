@@ -12,8 +12,7 @@ namespace UlearnGame
     {
         public bool up, right, left, down;
         public bool cooldown = true;
-        public string facing = "down";
-        
+        public string facing = "down";      
         public int speed;
         public static Size size = new Size(50, 50);
         public PictureBox playerModel = new PictureBox

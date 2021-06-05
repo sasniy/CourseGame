@@ -71,26 +71,6 @@ namespace UlearnGame {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrowLeft {
-            get {
-                object obj = ResourceManager.GetObject("arrowLeft", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrowRight {
-            get {
-                object obj = ResourceManager.GetObject("arrowRight", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream attack {
@@ -231,16 +211,6 @@ namespace UlearnGame {
         internal static System.Drawing.Bitmap health {
             get {
                 object obj = ResourceManager.GetObject("health", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap HowToPlayBackground {
-            get {
-                object obj = ResourceManager.GetObject("HowToPlayBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

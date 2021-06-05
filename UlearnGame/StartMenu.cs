@@ -33,14 +33,6 @@ namespace UlearnGame
                 Font = new Font("Agency FB", 100),
                 Location = new Point(250, 0)
             };
-            var HowToPlayImage = new PictureBox
-            {
-                Image = Resources.HowToPlayBackground,
-                BackColor = Color.Bisque,
-                Size = new Size(500, 500),
-                Location = new Point(500, GameName.Bottom)
-
-            };  
             var startGameLabel = new Label
             {
                 Text = "START GAME",
